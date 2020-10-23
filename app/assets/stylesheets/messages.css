@@ -1,0 +1,158 @@
+.wrapper {
+ height: 100vh;
+ display: flex;
+}
+
+.chat-side {
+  width: 300px;
+  background-color: #253141;
+  
+}
+
+.side-header {
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name { 
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.new_group {
+  color: deepskyblue;
+  font-size: 10px;
+  border: 1px solid lightblue;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.groups {
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+.chat_lists {
+  list-style: none;
+}
+
+.chat_list {
+  color: white;
+  padding: 20px 0 40px;
+}
+
+.chat-main {
+   width: calc(100vw - 300px);
+   background-color: #ffffff;
+   
+}
+
+.main-header {
+  height: 100px;
+  padding: 0 40px 46px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary {
+  color: #333333;
+  font-size: 24px;
+  padding-top: 36px;
+}
+
+.close_chat {
+  color: darkred;
+  padding: 20px;
+  margin-top: 40px;
+  border: 1px solid darkred;
+  text-decoration: none;
+}
+
+.messages {
+  height: calc(100vh - 190px);
+  background-color: #fafafa;
+  padding: 0 40px;
+  overflow: scroll;
+}
+
+.message_lists {
+  list-style: none;
+
+}
+
+.message_list{
+  margin-bottom: 40px;
+}
+
+.main_message {
+  display: flex;
+  margin: 10px 0;
+}
+
+.message_name {
+  color: #434a54;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.message_date {
+  color: #999999;
+  font-size: 12px;
+}
+
+.comment{
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.form {
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input {
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  margin-right: 15px;
+}
+
+.message_form{
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+}
+
+.form-image {
+  width: 60px;
+  color: white;
+  font-size: 12px;
+  background-color: lightblue;
+  padding: 12px;
+  margin: 5px 10px;
+  text-align: center;
+}
+ 
+.hidden {
+  display: none;
+}
+
+.send {
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  background-color: #38aef0;
+  padding: 0 20px;
+  border: none;
+}

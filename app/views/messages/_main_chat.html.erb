@@ -1,1 +1,37 @@
-＜チャット画面＞
+<div class="chat-main">
+  <%# メインのヘッダー %>
+  <div class="main-header">
+    <p class="summary">hogehuga</p>
+    <a href="#" class="close_chat">チャットを終了する</a>
+  </div>
+  <%# メッセージ一覧 %>
+  <div class="messages">
+    <ul class="message_lists">
+      <li class="message_list">
+        <div class="main_message">
+          <h1 class="message_name">Tom</h1>
+          <p class="message_date">2020/3/13(Wed) 12:00:31</p>
+        </div>
+        <p class="comment">おはよう</p>
+      </li>
+      <li class="message_list">
+        <div class="main_message">
+          <h1 class="message_name">Tom</h1>
+          <p class="message_date">2020/3/13(Wed) 12:00:31</p>
+        </div>
+        <p class="comment">おはよう</p>
+      </li>
+    </ul>
+  </div>
+  <%# フォーム %>
+  <div class="form">
+    <div class="form-input">
+      <input type="text" placeholder="type a message" class="message_form">
+      <label class="form-image">
+        <span class="image-file">画像</span>
+        <input type="file" class="hidden">
+      </label>
+    </div>
+    <input type="submit" value="送信" class="send">
+  </div>
+</div>
