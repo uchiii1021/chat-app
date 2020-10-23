@@ -1,7 +1,8 @@
 <div class="chat-side">
   <%# サイドのヘッダー %>
   <div class="side-header">
-    <a href="#" class="user_name">Tom</a>
+    <%# <a href="#" class="user_name">Tom</a> %>
+    <%= link_to "Tom", "/users/:id/edit", method: :get, class: "user_name" %>
     <a href="#" class="new_group">チャットを作成する</a>
   </div>
   <%# サイドのメイン %>
